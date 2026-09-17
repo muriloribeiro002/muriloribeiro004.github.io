@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murilo Ribeiro de Oliveira | Portfolio</title>
+    <!-- CSS Local -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome para Ícones -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+
+    <!-- NAV BAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="logo">Mr Code</span>
+            <div class="nav-links" id="nav-links">
+                <a href="#sobre" class="nav-item">Sobre</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#projetos" class="nav-item">Projetos</a>
+                <a href="#experiencia" class="nav-item">Experiência</a>
+                <a href="#contato" class="nav-item">Contato</a>
+            </div>
+            <button class="menu-btn" id="menu-btn" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="sobre" class="hero max-width">
+        <p class="hero-subtitle">Olá, meu nome é</p>
+        <h1 class="hero-title">Murilo Ribeiro de Oliveira</h1>
+        <h2 class="hero-role">Full-Stack Developer / Professor de Desenvolvimento de Sistemas / CEO Mr Code</h2>
+        <p class="hero-description">
+            Full-Stack Developer com background em Desenvolvimento de Sistemas, experiente em construir aplicações web, APIs, bancos de dados e soluções com IA. Experiência também em manutenção de hardware, suporte técnico e docência.
+        </p>
+        <div class="hero-buttons">
+            <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills-section">
+        <div class="max-width">
+            <h2 class="section-title"><span class="text-accent">01.</span> Tech Stack & Competências</h2>
+            
+            <div class="skills-grid">
+                <!-- Barras de Progresso -->
+                <div class="skills-left">
+                    <h3 class="skills-subtitle">Tecnologias de Desenvolvimento</h3>
+                    
+                    <div class="progress-container">
+                        <div class="progress-info">
+                            <span>Node.js / TypeScript / JavaScript</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" style="width: 95%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-container">
+                        <div class="progress-info">
+                            <span>Python (IA & Analytics)</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-container">
+                        <div class="progress-info">
+                            <span>Vue.js / HTML5 / CSS3</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-container">
+                        <div class="progress-info">
+                            <span>Bancos de Dados (MySQL / SQL)</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" style="width: 88%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tags Visuais -->
+                <div class="skills-right">
+                    <h3 class="skills-subtitle">Metodologias, Ferramentas & Infra</h3>
+                    <div class="tags-container">
+                        <span class="tag">Git / GitHub</span>
+                        <span class="tag">CI/CD</span>
+                        <span class="tag">Scrum</span>
+                        <span class="tag">Kanban</span>
+                        <span class="tag">Jira</span>
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">Modelagem de Dados</span>
+                        <span class="tag">Arquitetura de Software</span>
+                        <span class="tag">Manutenção de Hardware</span>
+                        <span class="tag">Suporte Técnico</span>
+                        <span class="tag">Docência / Liderança</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJETOS SECTION -->
+     
+    <section id="projetos" class="projetos-section max-width">
+        <h2 class="section-title"><span class="text-accent">02.</span> Projetos em Destaque</h2>
+
+        <div class="project-card">
+            <div class="project-badge">
+                <i class="fa-solid fa-trophy"></i> Projeto Campeão — FATEC
+            </div>
+            
+            <p class="project-category">Computer Vision & Segurança</p>
+            <h3 class="project-title">Sistema Inteligente de Detecção de Segurança e Incidentes com IA</h3>
+            
+            <p class="project-text">
+                Desenvolvimento de um ecossistema inteligente voltado à segurança patrimonial e pública. A equipe realizou o treinamento de um modelo customizado de <strong>Computer Vision utilizando YOLO e Roboflow</strong> focado na identificação em tempo real de armas de fogo e situações de perigo explícito capturadas por fluxos de câmeras.
+            </p>
+            <p class="project-text">
+                Em cenários de detecção positiva, a plataforma efetuava o disparo imediato de alarmes locais e realizava integrações de mensageria assíncrona, enviando <strong>SMS automatizados</strong> para usuários e autoridades previamente cadastradas.
+            </p>
+            <p class="project-text">
+                <strong>Minha contribuição:</strong> Atuei diretamente na arquitetura e desenvolvimento do Web Application de gerenciamento do sistema, construindo os módulos de administração de usuários, provisionamento de câmeras de monitoramento, logs de alertas críticos e relatórios analíticos de informações gerenciais.
+            </p>
+
+            <div class="project-tech-list">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Computer Vision</span>
+                <span class="tech-tag">YOLO</span>
+                <span class="tech-tag">Roboflow</span>
+                <span class="tech-tag">Web Application</span>
+                <span class="tech-tag">Bancos de Dados</span>
+                <span class="tech-tag">API Integration (SMS)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- JOGO SECTION -->
+    <section id="jogo" class="max-width" style="padding: 40px 24px 80px 24px;">
+        <div class="project-card" style="border-color: var(--accent);">
+            <div class="project-badge" style="background-color: rgba(59, 130, 246, 0.1); color: var(--accent);">
+                <i class="fa-solid fa-star"></i> Projeto Interativo
+            </div>
+            
+            <p class="project-category">Desenvolvimento de Jogos / Web Labs</p>
+            <h3 class="project-title">Laboratório de Jogos & Aplicações</h3>
+            
+            <p class="project-text">
+                Além de sistemas corporativos e soluções de IA, desenvolvo projetos interativos e jogos web para explorar mecânicas de lógica, manipulação avançada de DOM e performance no navegador. 
+            </p>
+            <p class="project-text">
+                Esta aplicação foi construída utilizando tecnologias web puras, demonstrando a versatilidade de desenvolvimento front-end moderno de forma descontraída e interativa.
+            </p>
+
+            <div class="project-tech-list" style="margin-bottom: 24px;">
+                <span class="tech-tag">HTML5 Canvas</span>
+                <span class="tech-tag">Vanilla JavaScript</span>
+                <span class="tech-tag">Game Loop</span>
+                <span class="tech-tag">CSS Animation</span>
+            </div>
+
+            <div class="project-links" style="padding-top: 16px; border-top: 1px solid var(--border-color);">
+                <a href="../portfolio/index.html" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem;">
+                    <i class="fa-solid fa-gamepad"></i> Iniciar o Jogo
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- EXPERIÊNCIA SECTION -->
+    <section id="experiencia" class="experiencia-section">
+        <div class="max-width">
+            <h2 class="section-title"><span class="text-accent">03.</span> Trajetória Profissional</h2>
+
+            <div class="timeline">
+                
+                <!-- Experiência 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="exp-title">Professor de Desenvolvimento de Sistemas</h3>
+                            <p class="exp-company">Escola de Governo do Estado de São Paulo</p>
+                        </div>
+                        <span class="exp-date">Fev/2024 – Atual (~2 anos 8 meses)</span>
+                    </div>
+                    
+                    <ul class="exp-bullets">
+                        <li>Instrução técnica avançada focada em desenvolvimento Full-Stack: ecossistema Python, arquitetura e consumo de APIs backend, interfaces frontend modernas (HTML, CSS, JavaScript), manipulação de banco de dados MySQL e engenharia de software.</li>
+                        <li>Capacitação prática em versionamento e governança de código com Git/GitHub, esteiras básicas de CI/CD e aplicação diária dos frameworks ágeis Scrum e Kanban através da ferramenta Jira.</li>
+                        <li>Liderança ativa de turmas na concepção de projetos reais, gerenciando o ciclo completo de desenvolvimento (SDLC) desde o levantamento inicial de requisitos, engenharia de dados/modelagem até o deploy final e homologação.</li>
+                    </ul>
+
+                    <!-- Logo / Referência Visual -->
+                    <div class="gov-logo-box">
+                        <div class="gov-badge">GOVERNO <br> <span class="text-accent">SP</span></div>
+                        <div class="gov-text">
+                            <p class="gov-name">Escola de Governo do Estado de São Paulo</p>
+                            <p class="gov-desc">Instituição de Referência Governamental e Docência Técnica</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experiência 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="exp-title">CEO / Desenvolvedor Autônomo</h3>
+                            <p class="exp-company text-accent">Mr Code</p>
+                        </div>
+
+
